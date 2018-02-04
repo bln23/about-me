@@ -50,73 +50,6 @@ body,div,span,applet,object,iframe,a,img {
   font-size: 17px;
 }
 
-.principal-button {
-  width: 45px;
-  height: 45px;
-  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  border-radius: 45px;
-  background-color: #ffffff;
-  margin: 0 auto;
-  cursor: pointer;
-  display: block;
-}
-
-.down {
-  background-image: url("../images/ico-scroll-down.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  cursor: pointer;
-}
-
-.up {
-  background-color: #ffffff;
-  border-radius: 45px;
-  background-image: url("../images/ico-arrow.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  position: relative;
-  top: -22px;
-}
-
-.button-go {
-  width: 76px;
-  height: 45px;
-  border-radius: 22.5px;
-  text-align: center;
-  background-color: inherit;
-  border: solid 2px #f26002;
-  color: #f26002;
-  font-family: 'Roboto';
-  font-size: 20px;
-  line-height: 2.25;
-  cursor: pointer;
-  -webkit-transition: background ease 0.5s;
-  transition: background ease 0.5s;
-}
-
-.button-more {
-  display: block;
-  width: 184px;
-  height: 45px;
-  padding: 11px 26px;
-  border-radius: 22.5px;
-  background-color: #f26002;
-  color: #ffffff;
-  font-family: 'Roboto';
-  font-size: 20px;
-  font-weight: 500;
-  margin: 0 auto;
-  cursor: pointer;
-  -webkit-transition: background ease 0.5s;
-  transition: background ease 0.5s;
-}
-
-.button-more:hover {
-  background-color: #304268;
-}
-
 @media all and (min-width: 768px) {
   .principal-image {
     width: 50%;
@@ -130,29 +63,6 @@ body,div,span,applet,object,iframe,a,img {
 
   .text-important {
     font-size: 25px;
-  }
-
-  .button-go {
-    margin-left: 275;
-  }
-
-  .button-more {
-    width: 210px;
-  }
-}
-
-@media all and (min-width: 1024px) {
-  .button-go {
-    width: 160px;
-  }
-
-  .button-go:hover {
-    color: #ffffff;
-    background-color: #f26002;
-  }
-
-  .button-more {
-    width: 255px;
   }
 }
 
