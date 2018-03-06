@@ -1,5 +1,5 @@
 .hero {
-  background-image: url('../images/hero-image.jpg');
+  background-image: url('/images/hero-image.jpg');
   // background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,6 +10,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  box-shadow: 0 20px $colorQuaternary;
 }
 
 .container-text-hero {

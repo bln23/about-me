@@ -10,7 +10,7 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .hero {
-  background-image: url("../images/hero-image.jpg");
+  background-image: url("/images/hero-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -29,6 +29,8 @@ body,div,span,applet,object,iframe,a,img {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-shadow: 0 20px #000000;
+  box-shadow: 0 20px #000000;
 }
 
 .container-text-hero {
