@@ -6,7 +6,7 @@
 }
 
 body,div,span,applet,object,iframe,a,img {
-  font-family: 'Cormorant Garamond', serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .hero {
@@ -55,7 +55,6 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .footer {
-  padding-top: 100px;
   background-color: #dadada;
   width: 100%;
   font-size: 16px;
