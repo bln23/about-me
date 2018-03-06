@@ -1,0 +1,35 @@
+.hero {
+  background-image: url('../images/hero-image.jpg');
+  // background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-text-hero {
+  background-color: $colorQuaternary;
+  opacity: 0.2;
+  width: 659px;
+  height: 318px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-hero {
+  color: $colorQuintary;
+  text-align: center;
+  opacity: 1;
+  font-size: 40px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
