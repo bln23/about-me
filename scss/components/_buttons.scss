@@ -1,4 +1,21 @@
 .buttons {
   width: 60px;
-  padding-top: 80px;
+  position: absolute;
+  bottom: 20px;
+  @media all and (min-width: 768px){
+    bottom: 55px;
+  }
+}
+
+.hamburger-icon {
+  width: 76px;
+  height: 61px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  @media all and (min-width: 768px){
+    width: 62px;
+    height: 56px;
+  }
 }

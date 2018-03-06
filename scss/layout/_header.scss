@@ -14,23 +14,24 @@
 }
 
 .container-text-hero {
-  background-color: $colorQuaternary;
-  opacity: 0.2;
-  width: 659px;
-  height: 318px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: none;
+  @media all and (min-width: 768px){
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 241px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .text-hero {
   color: $colorQuintary;
   text-align: center;
-  opacity: 1;
-  font-size: 40px;
+  font-size: 45px;
   padding: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-
+  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
 }
