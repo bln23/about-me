@@ -50,6 +50,57 @@ body,div,span,applet,object,iframe,a,img {
   font-size: 17px;
 }
 
+.footer {
+  background-color: #dadada;
+  width: 100%;
+}
+
+.container-footer1 {
+  background-color: #262626;
+  height: 148px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container-footer2 {
+  background-color: #191919;
+  height: 130px;
+  margin-top: 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.icon-style {
+  height: 77px;
+  opacity: 0.55;
+  padding: 0 20px;
+}
+
+.text-footer1 {
+  color: #a6a6a6;
+  font-size: 30px;
+  padding-right: 100px;
+}
+
+.text-footer2 {
+  color: #a6a6a6;
+  font-size: 30px;
+}
+
 @media all and (min-width: 768px) {
   .principal-image {
     width: 50%;

@@ -1,1 +1,38 @@
+.footer {
+  background-color: $colorPrimary;
+  width: 100%;
+}
 
+.container-footer1 {
+  background-color: #262626;
+  height: 148px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-footer2 {
+  background-color: $colorSecundary;
+  height: 130px;
+  margin-top: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-style {
+  height: 77px;
+  opacity: 0.55;
+  padding: 0 20px;
+}
+
+.text-footer1 {
+  color: $colorTertiary;
+  font-size: 30px;
+  padding-right: 100px;
+}
+
+.text-footer2 {
+  color: $colorTertiary;
+  font-size: 30px;
+}
