@@ -10,7 +10,7 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .hero {
-  background-image: url("/images/hero-image.jpg");
+  background-image: url("../images/hero-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
