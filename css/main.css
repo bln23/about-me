@@ -5,10 +5,6 @@
   padding: 0;
 }
 
-body,div,span,applet,object,iframe,a,img {
-  font-family: "Open Sans Condensed", sans-serif;
-}
-
 .construstion {
   width: 100%;
   height: 20%;
@@ -53,11 +49,12 @@ body,div,span,applet,object,iframe,a,img {
 .footer {
   background-color: #dadada;
   width: 100%;
+  font-size: 18px;
 }
 
 .container-footer1 {
   background-color: #262626;
-  height: 148px;
+  height: 87px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,7 +68,7 @@ body,div,span,applet,object,iframe,a,img {
 
 .container-footer2 {
   background-color: #191919;
-  height: 130px;
+  height: 70px;
   margin-top: 1px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -85,20 +82,18 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .icon-style {
-  height: 77px;
+  height: 30px;
   opacity: 0.55;
-  padding: 0 20px;
+  padding: 0 5px;
 }
 
 .text-footer1 {
   color: #a6a6a6;
-  font-size: 30px;
-  padding-right: 100px;
+  padding-right: 20px;
 }
 
 .text-footer2 {
   color: #a6a6a6;
-  font-size: 30px;
 }
 
 @media all and (min-width: 768px) {
@@ -114,6 +109,27 @@ body,div,span,applet,object,iframe,a,img {
 
   .text-important {
     font-size: 25px;
+  }
+
+  .footer {
+    font-size: 24px;
+  }
+
+  .container-footer1 {
+    height: 148px;
+  }
+
+  .container-footer2 {
+    height: 130px;
+  }
+
+  .icon-style {
+    height: 77px;
+    padding: 0 20px;
+  }
+
+  .text-footer1 {
+    padding-right: 100px;
   }
 }
 

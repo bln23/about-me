@@ -1,38 +1,53 @@
 .footer {
   background-color: $colorPrimary;
   width: 100%;
+  font-size: 18px;
+  @media all and (min-width: 768px){
+    font-size: 24px;
+  }
 }
 
 .container-footer1 {
   background-color: #262626;
-  height: 148px;
+  height: 87px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px){
+    height: 148px;
+  }
 }
 
 .container-footer2 {
   background-color: $colorSecundary;
-  height: 130px;
+  height: 70px;
   margin-top: 1px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px){
+    height: 130px;
+  }
 }
 
 .icon-style {
-  height: 77px;
+  height: 30px;
   opacity: 0.55;
-  padding: 0 20px;
+  padding: 0 5px;
+  @media all and (min-width: 768px){
+    height: 77px;
+    padding: 0 20px;
+  }
 }
 
 .text-footer1 {
   color: $colorTertiary;
-  font-size: 30px;
-  padding-right: 100px;
+  padding-right: 20px;
+  @media all and (min-width: 768px){
+    padding-right: 100px;
+  }
 }
 
 .text-footer2 {
   color: $colorTertiary;
-  font-size: 30px;
 }
