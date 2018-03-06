@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body,div,span,applet,object,iframe,a,img {
+  font-family: 'Cormorant Garamond', serif;
+}
+
 .construstion {
   width: 100%;
   height: 20%;
