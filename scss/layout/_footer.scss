@@ -9,13 +9,10 @@
 
 .container-footer1 {
   background-color: #262626;
-  height: 87px;
+  height: 85px;
   display: flex;
   justify-content: center;
   align-items: center;
-  @media all and (min-width: 768px){
-    height: 148px;
-  }
 }
 
 .container-footer2 {
@@ -25,9 +22,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  @media all and (min-width: 768px){
-    height: 130px;
-  }
 }
 
 .icon-style {
@@ -35,8 +29,8 @@
   opacity: 0.55;
   padding: 0 5px;
   @media all and (min-width: 768px){
-    height: 77px;
-    padding: 0 20px;
+    height: 40px;
+    padding: 0 15px;
   }
 }
 
@@ -44,7 +38,7 @@
   color: $colorTertiary;
   padding-right: 20px;
   @media all and (min-width: 768px){
-    padding-right: 100px;
+    padding-right: 65px;
   }
 }
 

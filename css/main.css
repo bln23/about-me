@@ -9,47 +9,6 @@ body,div,span,applet,object,iframe,a,img {
   font-family: 'Cormorant Garamond', serif;
 }
 
-.construstion {
-  width: 100%;
-  height: 20%;
-  border-bottom: 1px solid #6B6861;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.principal-image {
-  width: 100%;
-  height: 10%;
-}
-
-.clock-image {
-  width: 35px;
-  height: 35px;
-  margin-top: 10%;
-  position: absolute;
-}
-
-.page-clock {
-  padding-top: 8%;
-  width: 100%;
-  height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  justify-content: center;
-}
-
-.text-important {
-  font-size: 17px;
-}
-
 .footer {
   background-color: #dadada;
   width: 100%;
@@ -58,7 +17,7 @@ body,div,span,applet,object,iframe,a,img {
 
 .container-footer1 {
   background-color: #262626;
-  height: 87px;
+  height: 85px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,39 +60,17 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 @media all and (min-width: 768px) {
-  .principal-image {
-    width: 50%;
-  }
-
-  .clock-image {
-    width: 50px;
-    height: 50px;
-    margin-top: 5%;
-  }
-
-  .text-important {
-    font-size: 25px;
-  }
-
   .footer {
     font-size: 18px;
   }
 
-  .container-footer1 {
-    height: 148px;
-  }
-
-  .container-footer2 {
-    height: 130px;
-  }
-
   .icon-style {
-    height: 77px;
-    padding: 0 20px;
+    height: 40px;
+    padding: 0 15px;
   }
 
   .text-footer1 {
-    padding-right: 100px;
+    padding-right: 65px;
   }
 }
 
