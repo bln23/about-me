@@ -6,7 +6,7 @@
 }
 
 body,div,span,applet,object,iframe,a,img {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .hero {
@@ -102,6 +102,29 @@ body,div,span,applet,object,iframe,a,img {
 
 .text-footer2 {
   color: #a6a6a6;
+}
+
+.about-me {
+  background-color: #dadada;
+  text-align: center;
+  color: #191919;
+}
+
+.about-me-title-one {
+  border-bottom: 1px solid #000000;
+  font-size: 30px;
+}
+
+.about-me-title {
+  font-size: 20px;
+}
+
+.about-me-text {
+  font-size: 18px;
+  text-align: justify;
+  width: 603px;
+  height: 223px;
+  margin: 0 auto;
 }
 
 .buttons {

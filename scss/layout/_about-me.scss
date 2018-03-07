@@ -1,4 +1,22 @@
 .about-me {
-  width: 1024px;
-  height: 3984px;
+  background-color: $colorPrimary;
+  text-align: center;
+  color: $colorSecundary;
+}
+
+.about-me-title-one {
+  border-bottom: 1px solid $colorQuaternary;
+  font-size: 30px;
+}
+
+.about-me-title {
+  font-size: 20px;
+}
+
+.about-me-text {
+  font-size: 18px;
+  text-align: justify;
+  width: 603px;
+  height: 223px;
+  margin: 0 auto;
 }
