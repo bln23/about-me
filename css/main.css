@@ -5,8 +5,12 @@
   padding: 0;
 }
 
+section {
+  background-color: #dadada;
+}
+
 body,div,span,applet,object,iframe,a,img {
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Saira", sans-serif;
 }
 
 .hero {
@@ -105,18 +109,22 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .about-me {
-  background-color: #dadada;
   text-align: center;
   color: #191919;
+  padding: 90px;
 }
 
 .about-me-title-one {
   border-bottom: 1px solid #000000;
   font-size: 30px;
+  width: 60%;
+  margin: 0 auto;
+  letter-spacing: 10px;
 }
 
 .about-me-title {
   font-size: 20px;
+  padding: 0 30px;
 }
 
 .about-me-text {
@@ -125,6 +133,45 @@ body,div,span,applet,object,iframe,a,img {
   width: 603px;
   height: 223px;
   margin: 0 auto;
+  padding: 30px 0;
+}
+
+.container-icons-one {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 70px;
+  opacity: 0.22;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.container-icons-two {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 70px;
+  opacity: 0.22;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.icon-media {
+  width: 48px;
+  height: 48px;
+  margin: 0 12px;
 }
 
 .buttons {

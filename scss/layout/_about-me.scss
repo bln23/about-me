@@ -1,16 +1,20 @@
 .about-me {
-  background-color: $colorPrimary;
   text-align: center;
   color: $colorSecundary;
+  padding: 90px;
 }
 
 .about-me-title-one {
   border-bottom: 1px solid $colorQuaternary;
   font-size: 30px;
+  width: 60%;
+  margin: 0 auto;
+  letter-spacing: 10px;
 }
 
 .about-me-title {
   font-size: 20px;
+  padding: 0 30px;
 }
 
 .about-me-text {
@@ -19,4 +23,31 @@
   width: 603px;
   height: 223px;
   margin: 0 auto;
+  padding: 30px 0;
+}
+
+.container-icons-one {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 70px;
+  opacity: 0.22;
+  margin-top: 20px;
+  margin-bottom: 9px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-icons-two {
+  background-color: rgba(0, 0, 0, 0.3);
+  height: 70px;
+  opacity: 0.22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-media {
+  width: 48px;
+  height: 48px;
+  margin: 0 12px;
 }
