@@ -5,9 +5,6 @@
   padding: 0;
 }
 
-section {
-  background-color: #dadada;
-}
 
 
 
@@ -17,10 +14,10 @@ section {
 @import 'core/typography';
 
 // Layout
-// @import 'layout/hero';
 @import 'layout/header';
-@import 'layout/footer';
 @import 'layout/about-me';
+@import 'layout/projects';
+@import 'layout/footer';
 
 
 // Components

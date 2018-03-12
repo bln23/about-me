@@ -1,53 +1,78 @@
+.principal-container {
+  background-color: $colorPrimary;
+  padding-bottom: 10px;
+  @media all and (min-width: 768px){
+    padding-bottom: 55px;
+  }
+}
+
 .about-me {
   text-align: center;
   color: $colorSecundary;
-  padding: 90px;
+  padding: 50px 40px 27px 40px;
+  @media all and (min-width: 768px){
+    padding: 90px 200px 25px 200px;
+  }
 }
 
 .about-me-title-one {
   border-bottom: 1px solid $colorQuaternary;
-  font-size: 30px;
-  width: 60%;
+  font-size: 20px;
   margin: 0 auto;
   letter-spacing: 10px;
+  @media all and (min-width: 768px){
+    font-size: 30px;
+    width: 60%;
+  }
 }
 
 .about-me-title {
-  font-size: 20px;
-  padding: 0 30px;
+  font-size: 16px;
+  @media all and (min-width: 768px){
+      padding: 0 30px;
+  }
 }
 
 .about-me-text {
   font-size: 18px;
   text-align: justify;
-  width: 603px;
-  height: 223px;
   margin: 0 auto;
-  padding: 30px 0;
+  padding-top: 25px;
 }
 
 .container-icons-one {
   background-color: rgba(0, 0, 0, 0.3);
-  height: 70px;
   opacity: 0.22;
   margin-top: 20px;
   margin-bottom: 9px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px){
+    height: 85px;
+  }
 }
 
 .container-icons-two {
   background-color: rgba(0, 0, 0, 0.3);
-  height: 70px;
   opacity: 0.22;
+  height: 60px;
+  margin-bottom: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  @media all and (min-width: 768px){
+    height: 85px;
+  }
 }
 
 .icon-media {
-  width: 48px;
-  height: 48px;
+  width: 35px;
+  height: 35px;
   margin: 0 12px;
+  @media all and (min-width: 768px){
+    width: 48px;
+    height: 48px;
+  }
 }
