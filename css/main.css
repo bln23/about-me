@@ -65,14 +65,14 @@ body,div,span,applet,object,iframe,a,img {
   padding: 50px 40px 27px 40px;
 }
 
-.about-me-title-one {
+.title-one,.title-projects {
   border-bottom: 1px solid #000000;
   font-size: 20px;
   margin: 0 auto;
   letter-spacing: 10px;
 }
 
-.about-me-title {
+.title-two {
   font-size: 16px;
 }
 
@@ -125,6 +125,37 @@ body,div,span,applet,object,iframe,a,img {
 .projects {
   background-color: #191919;
   color: #dadada;
+  text-align: center;
+  padding-bottom: 100px;
+  padding: 50px 40px 27px 40px;
+}
+
+.container-repos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-gap: 45px;
+  padding-top: 50px;
+}
+
+.image-repo {
+  width: 250px;
+  height: 250px;
+}
+
+.title-projects {
+  border-color: #dadada;
+}
+
+.image-me {
+  width: 193px;
+  height: 193px;
+  border-radius: 50%;
 }
 
 .footer {
@@ -216,12 +247,12 @@ body,div,span,applet,object,iframe,a,img {
     padding: 90px 200px 25px 200px;
   }
 
-  .about-me-title-one {
+  .title-one,.title-projects {
     font-size: 30px;
     width: 60%;
   }
 
-  .about-me-title {
+  .title-two {
     padding: 0 30px;
   }
 
@@ -236,6 +267,10 @@ body,div,span,applet,object,iframe,a,img {
   .icon-media {
     width: 48px;
     height: 48px;
+  }
+
+  .projects {
+    padding: 90px 200px 25px 200px;
   }
 
   .footer {
