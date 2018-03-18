@@ -137,14 +137,13 @@ body,div,span,applet,object,iframe,a,img {
   -ms-flex-pack: center;
   justify-content: center;
   display: grid;
-  grid-template-columns: 250px 250px 250px;
-  grid-gap: 45px;
+  grid-gap: 18px;
   padding-top: 30px;
 }
 
 .image-repo {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
 }
 
 .title-projects {
@@ -288,6 +287,11 @@ body,div,span,applet,object,iframe,a,img {
     padding: 90px 200px 55px 200px;
   }
 
+  .container-repos {
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 35px;
+  }
+
   .footer {
     font-size: 18px;
   }
@@ -308,6 +312,18 @@ body,div,span,applet,object,iframe,a,img {
   .hamburger-icon {
     width: 62px;
     height: 56px;
+  }
+}
+
+@media all and (min-width: 1024px) {
+  .container-repos {
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 45px;
+  }
+
+  .image-repo {
+    width: 250px;
+    height: 250px;
   }
 }
 

@@ -13,14 +13,25 @@
   display: flex;
   justify-content: center;
   display: grid;
-  grid-template-columns: 250px 250px 250px;
-  grid-gap: 45px;
+  grid-gap: 18px;
   padding-top: 30px;
+  @media all and (min-width: 768px){
+    grid-template-columns: 150px 150px 150px;
+    grid-gap: 35px;
+  }
+  @media all and (min-width: 1024px){
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 45px;
+  }
 }
 
 .image-repo {
-  width: 250px;
-  height: 250px;
+  width: 150px;
+  height: 150px;
+  @media all and (min-width: 1024px){
+    width: 250px;
+    height: 250px;
+  }
 }
 
 .title-projects {
