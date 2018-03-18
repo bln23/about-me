@@ -78,7 +78,6 @@ body,div,span,applet,object,iframe,a,img {
 
 .about-me-text {
   font-size: 18px;
-  text-align: justify;
   margin: 0 auto;
   padding-top: 25px;
 }
@@ -140,7 +139,7 @@ body,div,span,applet,object,iframe,a,img {
   display: grid;
   grid-template-columns: 250px 250px 250px;
   grid-gap: 45px;
-  padding-top: 50px;
+  padding-top: 30px;
 }
 
 .image-repo {
@@ -150,6 +149,10 @@ body,div,span,applet,object,iframe,a,img {
 
 .title-projects {
   border-color: #dadada;
+}
+
+.history {
+  background-color: #dadada;
 }
 
 .header-history {
@@ -264,6 +267,10 @@ body,div,span,applet,object,iframe,a,img {
     padding: 0 30px;
   }
 
+  .about-me-text {
+    text-align: justify;
+  }
+
   .container-icons-one {
     height: 85px;
   }
@@ -278,7 +285,7 @@ body,div,span,applet,object,iframe,a,img {
   }
 
   .projects {
-    padding: 90px 200px 25px 200px;
+    padding: 90px 200px 55px 200px;
   }
 
   .footer {
