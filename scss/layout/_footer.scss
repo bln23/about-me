@@ -1,5 +1,5 @@
 .footer {
-  background-color: $colorPrimary;
+  background-color: $colorDarkWhite;
   width: 100%;
   font-size: 16px;
   @media all and (min-width: 768px){
@@ -16,7 +16,7 @@
 }
 
 .container-footer2 {
-  background-color: $colorSecundary;
+  background-color: $colorDarkGrey;
   height: 70px;
   margin-top: 1px;
   display: flex;
@@ -28,6 +28,10 @@
   height: 30px;
   opacity: 0.55;
   padding: 0 5px;
+  transition: opacity ease 0.3s;
+  &:hover {
+          opacity:1;
+  }
   @media all and (min-width: 768px){
     height: 40px;
     padding: 0 15px;
@@ -35,7 +39,7 @@
 }
 
 .text-footer1 {
-  color: $colorTertiary;
+  color: $colorLightGrey;
   padding-right: 20px;
   @media all and (min-width: 768px){
     padding-right: 65px;
@@ -43,5 +47,5 @@
 }
 
 .text-footer2 {
-  color: $colorTertiary;
+  color: $colorLightGrey;
 }

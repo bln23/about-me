@@ -1,23 +1,59 @@
-.arrow-down {
-  width: 60px;
+.button-arrow {
   position: absolute;
-  bottom: 20px;
-  margin-left: -27px;
-  @media all and (min-width: 768px){
-    bottom: 55px;
-  }
+  bottom: 53px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: $colorBlack;
+  cursor: pointer;
+  display: block;
+  opacity: 0.80;
+  transition: background ease 0.3s;
+    &:hover {
+      background-color: #5cb2bf;
+    }
+  //   @media all and (min-width: 768px){
+  //   bottom: 55px;
+  // }
+}
+
+.down {
+  background-image: url('../images/ico-down.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.up {
+  background-image: url('../images/ico-up.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
 }
 
 .hamburger-icon {
-  width: 76px;
-  height: 61px;
+  background-image: url('../images/ico-menu.svg');
+  background-color: $colorBlack;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  outline: none;
   position: absolute;
   right: 0;
   top: 0;
   z-index: 2;
-  @media all and (min-width: 768px){
-    width: 62px;
-    height: 56px;
+  cursor: pointer;
+  transition: background ease 0.3s;
+    &:hover {
+      background-color: #5cb2bf;
+    }
+    @media all and (min-width: 768px){
+      width: 44px;
+      height: 44px;
   }
 }
 

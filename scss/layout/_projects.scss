@@ -1,6 +1,6 @@
 .projects {
-  background-color: $colorSecundary;
-  color: $colorPrimary;
+  background-color: $colorDarkGrey;
+  color: $colorDarkWhite;
   text-align: center;
   padding-bottom: 100px;
   padding: 50px 40px 27px 40px;
@@ -36,5 +36,5 @@
 
 .title-projects {
   @extend .title-one;
-  border-color: $colorPrimary;
+  border-color: $colorDarkWhite;
 }

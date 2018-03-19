@@ -7,7 +7,7 @@
 
 .about-me {
   text-align: center;
-  color: $colorSecundary;
+  color: $colorDarkGrey;
   padding: 50px 50px 27px 50px;
   @media all and (min-width: 768px){
     padding: 90px 200px 25px 200px;
@@ -15,7 +15,7 @@
 }
 
 .title-one {
-  border-bottom: 1px solid $colorQuaternary;
+  border-bottom: 1px solid $colorDarkGrey;
   font-size: 20px;
   margin: 0 auto;
   letter-spacing: 10px;

@@ -69,7 +69,7 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .title-one,.title-projects {
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #191919;
   font-size: 20px;
   margin: 0 auto;
   letter-spacing: 10px;
@@ -222,6 +222,12 @@ body,div,span,applet,object,iframe,a,img {
   height: 30px;
   opacity: 0.55;
   padding: 0 5px;
+  -webkit-transition: opacity ease 0.3s;
+  transition: opacity ease 0.3s;
+}
+
+.icon-style:hover {
+  opacity: 1;
 }
 
 .text-footer1 {
@@ -233,20 +239,61 @@ body,div,span,applet,object,iframe,a,img {
   color: #a6a6a6;
 }
 
-.arrow-down {
-  width: 60px;
+.button-arrow {
   position: absolute;
-  bottom: 20px;
-  margin-left: -27px;
+  bottom: 53px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-color: #000000;
+  cursor: pointer;
+  display: block;
+  opacity: 0.80;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+}
+
+.button-arrow:hover {
+  background-color: #5cb2bf;
+}
+
+.down {
+  background-image: url("../images/ico-down.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.up {
+  background-image: url("../images/ico-up.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  cursor: pointer;
 }
 
 .hamburger-icon {
-  width: 76px;
-  height: 61px;
+  background-image: url("../images/ico-menu.svg");
+  background-color: #000000;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  outline: none;
   position: absolute;
   right: 0;
   top: 0;
   z-index: 2;
+  cursor: pointer;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+}
+
+.hamburger-icon:hover {
+  background-color: #5cb2bf;
 }
 
 .arrow-up {
@@ -342,13 +389,9 @@ body,div,span,applet,object,iframe,a,img {
     padding-right: 65px;
   }
 
-  .arrow-down {
-    bottom: 55px;
-  }
-
   .hamburger-icon {
-    width: 62px;
-    height: 56px;
+    width: 44px;
+    height: 44px;
   }
 }
 
