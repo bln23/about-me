@@ -28,6 +28,14 @@
 .image-repo {
   width: 150px;
   height: 150px;
+  &:hover {
+    color: white;
+}
+a {
+    transition: color 0.8s linear 0.2s;
+}
+
+
   @media all and (min-width: 1024px){
     width: 250px;
     height: 250px;

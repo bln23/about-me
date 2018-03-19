@@ -149,6 +149,15 @@ body,div,span,applet,object,iframe,a,img {
   height: 150px;
 }
 
+.image-repo:hover {
+  color: white;
+}
+
+.image-repo a {
+  -webkit-transition: color 0.8s linear 0.2s;
+  transition: color 0.8s linear 0.2s;
+}
+
 .title-projects {
   border-color: #dadada;
 }
