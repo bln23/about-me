@@ -30,28 +30,6 @@
   cursor: pointer;
 }
 
-.hamburger-icon {
-  background-image: url('../images/ico-menu.svg');
-  background-color: $colorBlack;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 50px;
-  width: 50px;
-  outline: none;
-  position: absolute;
-  right: 0;
-  top: 0;
-  z-index: 2;
-  cursor: pointer;
-  transition: background ease 0.3s;
-    &:hover {
-      background-color: #5cb2bf;
-    }
-    @media all and (min-width: 768px){
-      width: 44px;
-      height: 44px;
-  }
-}
 
 .arrow-up {
   width: 60px;

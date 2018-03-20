@@ -1,0 +1,99 @@
+.menu-open {
+  background-image: url('../images/ico-menu.svg');
+  background-color: $colorBlack;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border: 0;
+  z-index: 2;
+  cursor: pointer;
+  transition: background ease 0.3s;
+    &:hover {
+      background-color: #5cb2bf;
+    }
+    @media all and (min-width: 768px){
+      width: 44px;
+      height: 44px;
+  }
+}
+
+.menu-visible {
+	&::after {
+		content: '';
+		position: absolute;
+		right: 0;
+		top: 0;
+		height: 100%;
+		width: 100%;
+		background: rgba(255, 255, 255, .7);
+		z-index: 1;
+	}
+}
+
+.page-navigation {
+	position: absolute;
+	height: 100%;
+	width: 320px;
+	background: black;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+	right: -400px;
+	top: 0;
+	transition: right ease 0.8s;
+	.menu-visible & {
+		right: 0;
+		z-index: 2;
+	}
+}
+
+.menu-close {
+	line-height: 50px;
+	padding: 0;
+	border: 0;
+	width: 50px;
+	height: 50px;
+	outline: none;
+	cursor: pointer;
+	text-transform: uppercase;
+	color: #dadada;
+	background: #191919;
+	transition: background ease 0.3s;
+	position: absolute;
+	font-size: 20px;
+	right: 100%;
+	z-index: 2;
+	&:hover {
+		background: #5cb2bf;
+	}
+}
+
+.menu {
+	color: #c7c7c7;
+	margin: 0;
+	padding: 50px 0 0;
+	list-style: none;
+}
+
+.menu-item {
+	border-bottom: 1px solid rgba(159,159,159, 0.25);
+	&:first-child {
+		border-top: 1px solid rgba(159,159,159, 0.25);
+	}
+}
+
+.menu-link {
+	padding: 0 30px;
+	display: block;
+	line-height: 56px;
+	color: inherit;
+	text-decoration: none;
+	transition: background ease 0.9s, color ease 0.3s;
+	&:hover {
+		color: #5cb2bf;
+		background: #191919;
+	}
+}
