@@ -70,7 +70,7 @@
   	transition: background ease 0.3s;
   	position: absolute;
   	font-size: 20px;
-  	left: 0;
+    right: -49px;
   	z-index: 2;
   	&:hover {
   		background: $colorHoverButton;

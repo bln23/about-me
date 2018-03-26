@@ -113,7 +113,7 @@ body,div,span,applet,object,iframe,a,img {
   transition: background ease 0.3s;
   position: absolute;
   font-size: 20px;
-  left: 0;
+  right: -49px;
   z-index: 2;
 }
 
