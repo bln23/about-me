@@ -3,14 +3,24 @@
 
 // Button down/up
 
-var button = document.querySelector('.button-arrow.down');
-button.addEventListener('click', showDown);
+var buttonDown = document.querySelector('.button-arrow.down');
+var buttonUp = document.querySelector('.button-arrow.up');
+buttonDown.addEventListener('click', showDown);
+buttonUp.addEventListener('click', showUp);
 
 function showDown(event) {
   event.preventDefault();
   var buttonDown = document.getElementById('next-section');
   buttonDown.scrollIntoView({block: "start", behavior: "smooth"});
 }
+
+
+function showUp(event) {
+  event.preventDefault();
+  var buttonDown = document.getElementById('up');
+  buttonDown.scrollIntoView({block: "end", behavior: "smooth"});
+}
+
 
 
 // Menu

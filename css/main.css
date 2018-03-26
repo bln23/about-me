@@ -342,7 +342,6 @@ body,div,span,applet,object,iframe,a,img {
 }
 
 .button-arrow {
-  position: absolute;
   bottom: 53px;
   width: 45px;
   height: 45px;
@@ -378,13 +377,10 @@ body,div,span,applet,object,iframe,a,img {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-}
-
-.arrow-up {
-  width: 60px;
-  right: 27px;
-  position: absolute;
+  position: fixed;
   right: 0;
+  bottom: 170px;
+  margin: 0 20px;
 }
 
 @media all and (min-width: 768px) {
