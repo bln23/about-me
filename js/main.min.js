@@ -22,7 +22,6 @@ function showUp(event) {
 }
 
 
-
 // Menu
 
 var hero = document.querySelector('.hero');

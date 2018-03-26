@@ -13,6 +13,10 @@
 
 .history-text {
   @extend .about-me-text;
+}
+
+.history-text-1 {
+  @extend .about-me-text;
   margin-bottom: -67px;
   @media all and (min-width: 768px){
     margin-bottom: -100px;

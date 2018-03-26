@@ -172,7 +172,7 @@ body,div,span,applet,object,iframe,a,img {
   font-size: 16px;
 }
 
-.about-me-text,.history-text {
+.about-me-text,.history-text,.history-text-1 {
   font-size: 18px;
   margin: 0 auto;
   padding-top: 25px;
@@ -265,7 +265,7 @@ body,div,span,applet,object,iframe,a,img {
   padding: 34px 50px 27px 50px;
 }
 
-.history-text {
+.history-text-1 {
   margin-bottom: -67px;
 }
 
@@ -425,7 +425,7 @@ body,div,span,applet,object,iframe,a,img {
     padding: 0 30px;
   }
 
-  .about-me-text,.history-text {
+  .about-me-text,.history-text,.history-text-1 {
     text-align: justify;
   }
 
@@ -455,7 +455,7 @@ body,div,span,applet,object,iframe,a,img {
     padding: 127px 200px 25px 200px;
   }
 
-  .history-text {
+  .history-text-1 {
     margin-bottom: -100px;
   }
 
