@@ -40,6 +40,7 @@ body,div,span,applet,object,iframe,a,img {
 
 .text-hero {
   color: #FFFFFF;
+  text-align: center;
   font-size: 45px;
   padding: 0 20px;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
@@ -47,7 +48,7 @@ body,div,span,applet,object,iframe,a,img {
 
 .hero .page-navigation {
   position: absolute;
-  height: 50%;
+  height: 100%;
   width: 170px;
   background: #000000;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
@@ -366,6 +367,10 @@ body,div,span,applet,object,iframe,a,img {
   background-position: center;
   cursor: pointer;
   margin: 0 auto;
+  right: 0;
+  left: 0;
+  bottom: 129px;
+  position: absolute;
 }
 
 .up {
@@ -475,6 +480,10 @@ body,div,span,applet,object,iframe,a,img {
 
   .text-footer1 {
     padding-right: 65px;
+  }
+
+  .down {
+    bottom: 52px;
   }
 }
 

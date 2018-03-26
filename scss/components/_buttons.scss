@@ -21,10 +21,13 @@
   background-position: center;
   cursor: pointer;
   margin: 0 auto;
-  // right: 0;
-  // left: 0;
-  // bottom: 129px;
-  // position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 129px;
+  position: absolute;
+  @media all and (min-width: 768px){
+    bottom: 52px;
+  }
 }
 
 .up {
