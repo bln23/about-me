@@ -450,11 +450,6 @@ body,div,span,applet,object,iframe,a,img {
     padding: 90px 200px 55px 200px;
   }
 
-  .container-repos {
-    grid-template-columns: 150px 150px 150px;
-    grid-gap: 35px;
-  }
-
   .history {
     padding: 127px 200px 25px 200px;
   }
